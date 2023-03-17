@@ -1,0 +1,279 @@
+/* Thiết lập khung CSS chung */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Thiết lập khung cho điện thoại di động */
+  @media screen and (max-width: 480px) {
+    /* Viết code cho kích thước điện thoại di động */
+    body {
+      font-size: 14px;
+    }
+
+    .list__menu {
+        display: none;
+    }
+
+    .header__menu > .button {
+        display: none;
+    }
+
+    .header__container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .icon__header-menu {
+        display: inline-block;
+        font-size: 35px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .banner-section {
+        padding-bottom: 130px;
+    }
+
+    .banner__content .main__title-sub {
+        font-size: 26px !important;
+    }
+
+    .banner-section .main__title {
+        font-size: 36px !important;
+    }
+
+    .img__banner.img1, .img__banner.img2 {
+        display: none !important;
+    }
+
+    .button-transparent {
+        font-size: 18px;
+    }
+
+    .about__title {
+        font-size: 30px;
+    }
+
+    .row.about {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-signature {
+        margin: 40px 0px;
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .img__menu-left {
+        display: none;
+    }
+
+    .img-shapes {
+        display: none;
+    }
+
+    .about__img .img-food {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .container__menu-section > .row {
+        flex-direction: column;
+    }
+
+    .menu-tab {
+        display: none;
+    }
+
+    .container__menu-section {
+        padding: 0 20px;
+    }
+
+    .list__static {
+        flex-direction: column;
+    }
+
+    .list__static li {
+        margin: 20px 0px;
+    }
+
+    .list__services-info {
+        flex-direction: column;
+    }
+
+    .list__auth {
+        justify-content: center;
+    }
+
+    .row-mobie {
+        flex-direction: column;
+    }
+
+    .button-booking {
+        display: none;
+    }
+
+    .event__content-img > img {
+        width: 100%;
+    }
+
+    .event__info {
+        text-align: center;
+    }
+
+    .event__info-icon ul {
+        margin: 30px 0px;
+        justify-content: center !important;
+    }
+
+    .event__content-img > .button {
+        background-color: #4b9438;
+        color: #fff;
+        margin: 50px 0px;
+    }
+
+    .event__content-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .list__make {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list__make li {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .time-list li {
+        font-size: 13px;
+    }
+
+    .about__content {
+        padding: 0px 15px;
+    }
+
+    .amenities-header h2, .event__info-content h2, .auth__section-header h2, .serices__title-sub {
+        font-size: 18px;
+    }
+
+    .amenities-header h1, .event__info-content h1, .auth__section-header h1, .serices__title {
+        font-size: 36px;
+    }
+
+    .event__info-content p {
+        font-size: 14px;
+    }
+
+    footer > img {
+        display: none;
+    }
+
+    .footer__container {
+        padding: 0px 15px;
+    }
+
+    .footer__submit input {
+        font-size: 17px;
+    }
+
+    .button-submit {
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+
+    .list__info-contact {
+        flex-direction: column;
+    }
+
+
+    .list__info-contact li {
+        margin: 20px 0px;
+    }
+  }
+  
+  /* Thiết lập khung cho máy tính bảng */
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Viết code cho kích thước máy tính bảng */
+    body {
+      font-size: 15px;
+    }
+
+    
+    
+  }
+  
+  /* Thiết lập khung cho màn hình laptop hoặc desktop */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Viết code cho kích thước laptop hoặc desktop */
+    body {
+      font-size: 16px;
+    }
+
+    .img__menu-left {
+        display: none;
+    }
+
+    
+  }
+  
+  /* Thiết lập khung cho màn hình lớn hơn 1024px */
+  @media screen and (min-width: 1025px) and (max-width: 1900px) {
+    /* Viết code cho kích thước màn hình lớn hơn 1024px */
+    body {
+      font-size: 18px;
+    }
+
+    .img__menu-left {
+        display: none;
+    }
+
+    .container__menu-section {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .banner-section .img1, .banner-section .img2 {
+        width: 420px;
+    }
+
+    .banner-section {
+        padding: 50px 0px 320px;
+    }
+
+    .main__title-sub {
+        font-size: 37px !important;
+    }
+
+    .btn-container {
+        padding: 40px 0px;
+    }
+
+    .img__footer-left, .img__footer-right {
+        width: 258px;
+        height: 426px;
+        object-fit: contain;
+    }
+
+    .img-food {
+        transform: translate(-40%, -65%);
+    }
+
+    
+  }
+  
